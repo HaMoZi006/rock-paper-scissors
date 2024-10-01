@@ -1,0 +1,34 @@
+body{
+    background-color: cornflowerblue;
+    font-family: 'comic sans', Courier, monospace;
+  
+}
+div{
+    white-space: pre-line;
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'roboto', Courier, monospace;
+}
+
+button{
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 600px;
+    height: 300px;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 25px;
+    font-family: 'comic sans', Courier, monospace;
+}
+
+
+button:hover{
+    opacity: 80%;
+}
